@@ -16,7 +16,7 @@ def generate_keywords(summary: str, rule: str):
     )
     return chat.choices[0].text.strip()
 
-# # Example usage
+# Example usage
 summary = "Experienced Software Developer with skills in Full-Stack development, Automation, AI, and UI/UX Design. Proven track record with companies like Jobati, Kr8vSolutions, My Karaj, Syara Finder, River Blood, and Junky Helmets. Specialized in Fullstack and UI/UX. Established Taskure, a startup providing digital solutions with a track record of multiple projects. Ready to enhance your team with versatile expertise."
 rule = "python developer"
 for i in range(15):
